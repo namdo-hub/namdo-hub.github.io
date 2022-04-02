@@ -1,0 +1,37 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+p#heading {
+    color: blue;
+}
+.icon{
+    color: yellow;
+    font-size: 15px;
+}
+
+p {
+    color: plum;
+}
+h2{
+    color: red;
+}
+
+body{
+    font-size: medium;
+}
+ 
+h2 {
+    margin:10px 1px 10px 75px;;
+}
+
+p#heading{
+    border: 3px solid blue;
+}
+
+.nam {
+    border-radius: 1;
+}
+
+p#heading {
+    box-sizing: content-box;
+}
