@@ -1,0 +1,42 @@
+:root{
+    font-size: 14px;
+    --color-text : #22234d;
+    --color-heading : #661642;
+    --widtd :100px;
+    --height :100px;
+}
+
+.text {
+    font-size: 2rem;
+    color: var(--color-text);
+}
+
+.box{
+    font-size: 20px;
+    width: 50vw ;
+    
+   
+}
+.box p{
+    font-size: 3em;
+    color: var(--color-heading);
+}
+
+.parent{
+ width: 1000px
+ 
+      
+
+}
+
+.children{
+   
+    height: 100%;
+    background-color: red;
+}
+.text-1 {
+    --color-text : #1d704c;
+    font-size: 2rem;
+    color: var(--color-text);
+
+    @import url();
