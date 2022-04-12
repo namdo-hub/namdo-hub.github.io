@@ -37,6 +37,7 @@ img {
 .sidebar {
     display: flex;
     align-items: center;
+    margin-bottom: 48px;
 }
 
 .menu > ul {
@@ -108,6 +109,10 @@ img {
 }
 .avatar{
     padding: 16px;
+}
+
+.logo{
+    height: 35px;
 }
     
     
