@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    
+
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #757575;
+}
+
+a {
+    text-decoration: none;
+    color: #757575;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.title {
+    margin-bottom: 20px;
+}
+
+.menu {
+    background-color: #fff;
+    position: relative;
+}
+
+.menu-item {
+    width: 200px;
+    /* position: relative; */
+}
+
+.menu-item p {
+    padding-left: 8px;
+    padding-right: 8px;
+    height: 27px;
+    line-height: 27px;
+    text-decoration: none;
+    font-size: 13px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-item p .icon {
+    display: none;
+}
+
+.menu-item:hover > p,
+.menu-item:hover > p a {
+    color: chocolate;
+}
+
+.menu-item:hover > p .icon,
+.menu-item:hover > p .icon {
+    display: inline-block;
+    color: chocolate;
+}
+
+.sub-menu {
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 200px;
+   
+    display: none;
+    height: 100%;
+}
+
+.menu-item:hover .sub-menu {
+    display: block;
+}
+
+.menu3{
+    display: none;
+    position: absolute;
+    left: 100%;
+    right: 0px;
+    top: 0px;
+    line-height: 25px;
+    
+    
+    
+}
+
+li :hover> .menu3{
+    display: block;
+    font-size: 13px;
+    width: 200px;
+}
+
+   
