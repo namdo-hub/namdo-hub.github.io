@@ -3,18 +3,16 @@ import java.util.Scanner;
 public class test {
     public static void main(String[] args) {
         Scanner sc =new Scanner(System.in);
+        System.out.println("nhap chieu dai");
+        Double dai = sc.nextDouble();
+
+        System.out.println("nhap chieu cao");
+        Double cao=sc.nextDouble();
+
+        Double cchuvi= dai*2+cao*2;
+        System.out.println(cchuvi);
 
 
-        System.out.print("Tên mình là ");
-        String name  =sc.nextLine();
 
-        System.out.print("Năm nay mình ");
-        String age =sc.nextLine();
-
-        System.out.println("Giới Tính");
-        String gender = sc.nextLine();
-
-        System.out.println("Mình sông tại");
-        String live = sc.nextLine();
     }
 }
