@@ -1,9 +1,8 @@
 public class bai1 {
     public static void main(String[] args) {
-        bai1 m=new bai1();
-        m.nhapa();
+        nhapa();
     }
-    public void nhapa(){
+    public static void nhapa(){
         for (int i = 0; i <10 ; i++) {
             System.out.print("a");
         }
