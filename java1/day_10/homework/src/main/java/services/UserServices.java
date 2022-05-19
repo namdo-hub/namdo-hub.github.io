@@ -58,7 +58,7 @@ public class UserServices {
     }
     public void register() throws IOException {
         String email ="";
-        String email_pattern = "^[a-zA-Z][\\w-]+@([\\w]+\\.[\\w]+|[\\w]+\\.[\\w]{2,}\\.[\\w]{2,})$";
+        String email_pattern = "";
         List<User> newUser = new ArrayList<>();
         listUser = getObjectFromJsonFile("list-user.json");
         Scanner sc = new Scanner(System.in);
