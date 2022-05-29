@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "content": "chuyen tien 1",
+    "date": "12/7/2022,  2:03:04 PM",
+    "receiveAccount": "012345678",
+    "receiveMoney": 254000
+  },
+  {
+    "id": 69,
+    "userId": 1,
+    "content": "Chuyen tien 2",
+    "date": "11/1/2022, 2:04:04 PM",
+    "receiveAccount": "012345675",
+    "receiveMoney": 1234567
+  },
+  {
+    "id": 102,
+    "userId": 1,
+    "content": "Chuyen tien 3",
+    "date": "14/2/2022, 2:05:06 PM",
+    "receiveAccount": "035123456",
+    "receiveMoney": 7894561
+  },
+  {
+    "id": 1,
+    "userId": 1,
+    "content": "Chuyen tien 4",
+    "date": "15/6/2022, 2:05:06 PM",
+    "receiveAccount": "0974662754",
+    "receiveMoney": 1540000
+  },
+  {
+    "id": 2,
+    "userId": 1,
+    "content": "GG",
+    "date": "12/01/2022, 9:00:00 AM",
+    "receiveAccount": "03521234",
+    "receiveMoney": 400000
+  }
+]
